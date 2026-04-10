@@ -1,0 +1,20 @@
+name = "orchestrator"
+description = "Coordinates deep exploration workflow"
+
+developer_instructions = """
+Workflow:
+
+1. literature_searcher → generate large candidate pool
+
+2. literature_filter → select high-quality papers
+
+3. paper_extractor → extract + synthesize
+
+Requirements:
+- search must be multi-round
+- extraction must include cross-paper synthesis
+- final output must be structured
+
+Do NOT skip steps.
+Do NOT output shallow summaries.
+"""
