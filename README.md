@@ -1,3 +1,4 @@
+注意：agents文件夹需要在上层重新创建一个“.codex"文件夹，这个文件夹会自动隐藏。因为隐藏的文件夹不能上传，所以只能这样。
 # research_codex
 AI-assisted literature workflow based on codex
 # Research Codex Lite
